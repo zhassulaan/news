@@ -19,13 +19,17 @@
 	z-index: 5;
 	&-logo {
 		height: 100%;
+		img {
+			height: inherit;
+		}
 	}
 	&-menu {
 		display: flex;
-		width: 100%;
-		height: 100%;
+		align-items: center;
 		justify-content: flex-end;
 		gap: 38px;
+		width: 100%;
+		height: 100%;
 		&__item {
 			position: relative;
 			display: flex;
@@ -56,14 +60,8 @@
 .home-layout {
 	.header {
 		height: 148px;
-		padding-right: 11.51042%;
-		padding-left: 11.61459%;
-		&-logo {
-			min-width: 185px;
-			max-width: 185px;
-		}
+		padding: 30px 11.51042%;
 		&-menu__item {
-			padding-top: 57px;
 			&-text {
 				font-size: 18px;
 			}
@@ -80,14 +78,8 @@
 .default-layout {
 	.header {
 		height: 81px;
-		padding-right: 11.40625%;
-		padding-left: 12.03125%;
-		&-logo {
-			min-width: 112px;
-			max-width: 112px;
-		}
+		padding: 16px 11.40625%;
 		&-menu__item {
-			padding-top: 28px;
 			&-text {
 				font-size: 20px;
 			}
@@ -102,10 +94,6 @@
 			height: 80px;
 			padding-right: 5.319149vw;
 			padding-left: 5.585106vw;
-			&-logo {
-				min-width: 84px;
-				max-width: 84px;
-			}
 			&-menu {
 				gap: 21px;
 				&__item {

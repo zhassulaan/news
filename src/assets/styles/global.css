@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
 @import './header.scss';
 @import './home.scss';
-@import './detail.scss';
+@import './modal.scss';
 @import './favourites.scss';
 
 :root {
@@ -13,6 +13,7 @@
   --clr-blue: #325BEC;
   --clr-yellow: #FFF200;
   --clr-red: #f13737;
+  --clr-dark: #1A1A1C;
 }
 
 *,
